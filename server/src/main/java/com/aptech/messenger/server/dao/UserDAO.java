@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * Хэрэглэгчийн мэдээллийг агуулах user table-тай харьцах
  * зориулалт бүхий DataAccessObject юм.
  */
-public class UserDAO {
+public class UserDAO extends DaoSupport {
 
 	/**
 	 * Тухайн хэрэглэгчийн нэвтрэх үеийн AuthDetails моделийг дамжуулахад

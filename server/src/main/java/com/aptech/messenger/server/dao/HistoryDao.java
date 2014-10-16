@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * Нийт хэрэглэгчидийн харьцсан мэдээллийг хадгалах зориулалт бүхий
  * chat_history table-тэй харьцан зориулалт бүхий DataAccessObject юм.
  */
-public class HistoryDao {
+public class HistoryDao extends DaoSupport {
 
 	/**
 	 * ShowHistory модельд тодорхойлогдсон мэдээллийн дагуу баазаас шүүж

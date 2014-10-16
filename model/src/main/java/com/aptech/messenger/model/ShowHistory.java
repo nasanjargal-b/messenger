@@ -1,5 +1,9 @@
 package com.aptech.messenger.model;
 
+/**
+ * Хэрэглэгчтэй харилцсан түүхийг харуулхыг хүсэх зорилготой
+ * серверлүү мэдээлэл дамжуулах модель
+ */
 public class ShowHistory implements Model {
 
 	private String username;
